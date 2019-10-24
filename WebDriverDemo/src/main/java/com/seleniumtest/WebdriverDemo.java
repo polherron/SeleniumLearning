@@ -36,7 +36,7 @@ public class WebdriverDemo {
 				try {
 					
 				
-				WebElement searchBox = driver.findElement(By.id("lst-ib"));
+				WebElement searchBox = driver.findElement(By.name("q"));
 				searchBox.sendKeys("pluralsight");
 				searchBox.submit();
 				
